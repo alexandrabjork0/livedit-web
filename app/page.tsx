@@ -35,7 +35,7 @@ export default function Home() {
           <h1 className="text-5xl sm:text-7xl font-black leading-tight mb-6">
             Your life,{" "}
             <span className="bg-gradient-to-r from-blue-400 to-pink-500 bg-clip-text text-transparent">
-              actually lived.
+              Lived.
             </span>
           </h1>
 
