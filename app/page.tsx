@@ -5,7 +5,7 @@ export default function Home() {
       {/* ── Nav ── */}
       <nav className="fixed top-0 w-full z-50 bg-[#08080f]/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="text-xl font-black tracking-tight bg-gradient-to-r from-blue-400 via-pink-400 to-yellow-300 bg-clip-text text-transparent">
+          <span className="text-xl font-black tracking-tight text-white">
             LivedIt
           </span>
           <a
@@ -34,7 +34,7 @@ export default function Home() {
 
           <h1 className="text-5xl sm:text-7xl font-black leading-tight mb-6">
             Your life,{" "}
-            <span className="bg-gradient-to-r from-blue-400 via-pink-400 to-yellow-300 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-pink-500 bg-clip-text text-transparent">
               actually lived.
             </span>
           </h1>
@@ -187,7 +187,7 @@ export default function Home() {
       {/* ── Footer ── */}
       <footer className="border-t border-white/8 py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/35">
-          <span className="font-black text-base bg-gradient-to-r from-blue-400 via-pink-400 to-yellow-300 bg-clip-text text-transparent">
+          <span className="font-black text-base text-white">
             LivedIt
           </span>
           <div className="flex gap-6">
